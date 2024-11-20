@@ -1,6 +1,26 @@
+import java.util.Scanner;
+
 public class SignUp {
     public static void main(String[] args) {
         //Vamos a crear un formulario de registro
+                Scanner scanner = new Scanner(System.in);
+
+                // Pedir los datos al usuario
+                System.out.print("Ingrese su nombre: ");
+                String nombre = scanner.nextLine();
+
+                System.out.print("Ingrese su apellido: ");
+                String apellido = scanner.nextLine();
+
+                System.out.print("Ingrese su nombre de usuario: ");
+                String usuario = scanner.nextLine();
+
+                System.out.print("Ingrese su contraseña: ");
+                String contrasenya = scanner.nextLine();
+
+
+                System.out.println("\nHola " + nombre + " " + apellido + ", tu nombre de usuario es " + usuario + " y tu contraseña es " + contrasenya + ", gracias por registrarte.");
+
 
         //Los datos que debes pedir al usuario son:
         //1. Nombre
