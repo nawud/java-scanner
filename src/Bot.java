@@ -24,7 +24,7 @@ public class Bot {
         //Recoge el dato
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
 
-        int edad = Integer.parseInt(scanner.nextLine());
+        int edad = scanner.nextInt();
 
 
 
