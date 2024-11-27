@@ -5,7 +5,7 @@ public class SignUp {
         //Vamos a crear un formulario de registro
                 Scanner scanner = new Scanner(System.in);
 
-                // Pedir los datos al usuario
+
                 System.out.print("Ingrese su nombre: ");
                 String nombre = scanner.nextLine();
 
